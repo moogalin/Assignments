@@ -1,0 +1,24 @@
+﻿Build started 5/22/2016 11:20:51 AM.
+     1>Project "C:\Users\Megalin\Desktop\CS 261\Week 7\Assignment5Soln\Assignment5\Assignment5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\a5_files_updated\a5_updated\CuTest.c ..\..\a5_files_updated\a5_updated\dynamicArray.c
+         dynamicArray.c
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(248): error C2198: 'adjustHeap': too few arguments for call
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(259): error C2065: 'hea': undeclared identifier
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(259): warning C4047: 'function': 'DynamicArray *' differs in levels of indirection from 'int'
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(259): warning C4024: 'adjustHeap': different types for formal and actual parameter 1
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(259): error C2198: 'adjustHeap': too few arguments for call
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\dynamicarray.c(260): error C2143: syntax error: missing ';' before '}'
+         CuTest.c
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(34): warning C4047: 'function': 'rsize_t' differs in levels of indirection from 'const char *'
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(34): warning C4024: 'strcpy_s': different types for formal and actual parameter 2
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(34): error C2198: 'strcpy_s': too few arguments for call
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(86): warning C4047: 'function': 'rsize_t' differs in levels of indirection from 'const char *'
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(86): warning C4024: 'strcat_s': different types for formal and actual parameter 2
+     1>c:\users\megalin\desktop\cs 261\week 7\a5_files_updated\a5_updated\cutest.c(86): error C2198: 'strcat_s': too few arguments for call
+         Generating Code...
+     1>Done Building Project "C:\Users\Megalin\Desktop\CS 261\Week 7\Assignment5Soln\Assignment5\Assignment5.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
